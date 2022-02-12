@@ -1,0 +1,88 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    min-height: 80vh;
+    width: 30rem;
+    padding: 0rem 5rem;
+    border-radius: 30px;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0,0.2),0px 0px 50px rgba(0,0,0,0.2);
+}
+.sneaker{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 35vh;
+}
+.sneaker img{
+    width: 20rem;
+    z-index: 2;
+}
+.circle{
+    width: 15rem;
+    height: 15rem;
+    position: absolute;
+    z-index: 1;
+    border-radius: 50%;
+    background: linear-gradient(to right,
+    rgba(55, 245, 51),
+    rgba(29, 132, 222)
+    );
+}
+
+.info h1{
+    font-size: 3rem;
+}
+
+.info h3{
+    font-size: 1.5rem;
+    padding: 2rem 0rem;
+}
+
+.sizes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sizes button{
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border-style: none;
+    background-color: white;
+    box-shadow:0px 5px 10px rgba(0, 0, 0,0.2);
+    border-radius: 10px;
+}
+
+button.active{
+    background-color: rgba(0, 0, 0,0.2);
+}
+.purchase{
+    min-height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.purchase button{
+    cursor: pointer;
+    border-style: none;
+    color: white;
+    background-color: tomato;
+    padding: 1rem 8rem;
+    border-radius: 30px;
+    font-size: 110%;
+}
