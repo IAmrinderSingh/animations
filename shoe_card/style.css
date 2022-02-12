@@ -9,6 +9,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    perspective: 1000px;
 }
 .container{
     width: 50%;
@@ -17,6 +18,7 @@ body{
 }
 
 .card{
+    transform-style: preserve-3d;
     min-height: 80vh;
     width: 30rem;
     padding: 0rem 5rem;
